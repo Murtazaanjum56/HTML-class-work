@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Links, table, lists </title>
+    </head>
+
+        <body>
+            <h2>Links</h2>
+<p> press this link if you like to code <a href= "https://www.google.com/">Google</a></p>
+
+<Table>    
+<tr> 
+<th>Name</th>
+<th>Age</th>
+<th>Gender</th>
+<th>Subject</th>
+</tr>
+
+<td>Murtaza</td>
+<td>13</td>
+<td>Male</td>
+<td>Computer science</td>
+
+</Table>
+        </body>
+</html>
