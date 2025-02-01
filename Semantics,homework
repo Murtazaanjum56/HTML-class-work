@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset='utf-8'>
+       <meta name="viewport" content="width=device-width">
+       <title>Semantics.homework</title>
+    </head>
+    <body>
+        <H1>Which football shoes are best for yoy?</H1>
+        <figure>
+            <img src="Football.jpg">
+        </figure>
+        <h2>Naviagte!</h2>
+        <nav>
+            <ul>
+               <li> <a href="#home">Home</li>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#Contact">contact us</a></li>
+            </ul>
+        </nav>
+
+
+        <section>
+            <article>
+                <h2>Why is it so hard good football shoes?</h2>
+                <img src="Football2.jpg">
+                <p>It is hard to find good football shoes for your because
+                    footbqall shoes often come in various shapes like narrow,
+                    wide
+                </p>
+            </article>
+        </section>
+    </body>
+</html>
