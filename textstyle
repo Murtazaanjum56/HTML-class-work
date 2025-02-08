@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Textstyle</title>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <style>
+         .class12{
+            font-family:'Great Vibes', cursive;
+            font-size: 36px;
+            color:rgb(213, 231, 15);
+         }
+         .pre1{
+            font-family: 'Courier New', Courier, monospace;
+            color:blueviolet;
+         }
+        div{
+            width: 300px;
+            height: 100px;
+            background-color: brown;
+            border: 5px, solid, black; 
+        }
+        #Mydiv{
+            transform: rotate(180deg);
+        }
+
+        body{
+            background: linear-gradient(yellow 50%, pink 50%);
+        }
+        
+        </style>
+    </head>
+    <body id="color1">
+        <P class="class12"> Hello i have different color</P> <br>
+        <p class="pre1">Your favourite food</p>
+        <div>How are you</div> <BR>
+            <div id="Mydiv">How are you</div>
+    </body>
+</html>
