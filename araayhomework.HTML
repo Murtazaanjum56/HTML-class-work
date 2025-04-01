@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <body>
+        <h1> Array hoemwork</h1>
+        <p id="result"></p>
+        <p id="result1"></p>
+        <p id="pop"></p>
+        <script>
+            var fruit = [
+                "Apple",
+                "Mango",
+                "banana",
+                "Grape"
+            ]
+
+ 
+
+            document.getElementById("result").innerHTML = fruit[2];
+            
+            fruit.pop();
+            var fruit1 = fruit.join(" is better than ")
+            document.getElementById("result1").innerHTML = fruit1;
+            document.getElementById("pop").innerHTML = fruit1;
+        </script>
+    </body>
+</html>
