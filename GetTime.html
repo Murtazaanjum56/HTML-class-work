@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <p id="time"></p>
+        <br>
+        <p id="greet"></p>
+        <script>
+            var time = new Date().getHours();
+            var greet = "";
+
+            if (time < 10) {
+                greet = "good morning!";
+            }
+
+            else if (time < 19) {
+                greet = "good afternoon!";
+            }
+            
+            else {
+                greet = "good evening!";
+            }
+
+            document.getElementById("time").innerHTML = "The current hour is: " + time;
+            document.getElementById("greet").innerHTML = greet;
+        </script>
+    </body>
+</html>
